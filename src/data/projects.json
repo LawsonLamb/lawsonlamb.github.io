@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Traega Entertainment Project",
+    "description": "Gameplay programming on an Unreal Engine title at Traega Entertainment. [Placeholder — replace with the actual game name, your contributions, and a link/trailer.]",
+    "images": ["astro-01.webp", "astro-02.jpeg"],
+    "tech": ["Unreal Engine", "C++"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "Professional"
+  },
+  {
+    "title": "Dungeon Defenders (Chromatic Games)",
+    "description": "Gameplay features and systems work on titles at Chromatic Games. [Placeholder — replace with the specific title, your role, and a store/link.]",
+    "images": ["astro-02.jpeg", "astro-01.webp"],
+    "tech": ["Unreal Engine", "C++"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "Professional"
+  }
+]

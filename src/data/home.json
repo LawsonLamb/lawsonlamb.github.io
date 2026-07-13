@@ -1,0 +1,30 @@
+{
+  "name": "Lawson Lamb",
+  "photoUrl": "favicon.svg",
+  "intro": "Senior Gameplay Programmer based in Gainesville, Florida, specializing in Unreal Engine and C++. I build responsive, high-impact gameplay systems and love turning design ideas into polished, performant player experiences.",
+  "introHtml": "Senior Gameplay Programmer based in Gainesville, Florida, specializing in <span class='text-white font-bold'>Unreal Engine</span> and <span class='text-white font-bold'>C++</span>. I build responsive, high-impact <span class='text-white font-bold'>gameplay systems</span> and love turning design ideas into polished, performant player experiences.",
+  "webpageTitle": "Lawson Lamb",
+  "resumeUrl": "#",
+
+  "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
+  "socials": [
+    {
+      "name": "GitHub",
+      "url": "",
+      "icon": "mdi:github",
+      "showInContact": true
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/lawsonlamb/",
+      "icon": "mdi:linkedin",
+      "showInContact": true
+    },
+    {
+      "name": "Email",
+      "url": "mailto:lawlzlamb@gmail.com",
+      "icon": "mdi:email",
+      "showInContact": true
+    }
+  ]
+}

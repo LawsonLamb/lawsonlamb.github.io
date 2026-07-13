@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Traega Entertainment",
+    "role": "Senior Gameplay Programmer",
+    "period": "Present",
+    "type": "Full time job",
+    "description": "Building and maintaining core gameplay systems in Unreal Engine with C++. [Placeholder — update with specific responsibilities, shipped titles, and start date.]",
+    "skills": ["Unreal Engine", "C++", "Gameplay Systems"]
+  },
+  {
+    "company": "Chromatic Games",
+    "role": "Gameplay Programmer",
+    "period": "Previous",
+    "type": "Full time job",
+    "description": "Developed gameplay features and systems in Unreal Engine. [Placeholder — update with dates, projects, and highlights.]",
+    "skills": ["Unreal Engine", "C++", "Gameplay Programming"]
+  },
+  {
+    "company": "Kennesaw State University",
+    "role": "Student",
+    "period": "2013 - 2016",
+    "type": "Student",
+    "description": "Member of Phi Theta Kappa Honor Society and the National Society of Leadership and Success. [Placeholder — update with degree/field of study.]",
+    "skills": ["Problem Solving", "Leadership"]
+  }
+]
