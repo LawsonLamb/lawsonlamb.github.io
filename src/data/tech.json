@@ -3,7 +3,8 @@
     {
       "title": "Game Engines",
       "skills": [
-        { "name": "Unreal Engine", "level": 3, "icon": "skill-icons:unrealengine" },
+        { "name": "Unreal Engine 5", "level": 3, "icon": "skill-icons:unrealengine" },
+        { "name": "Unreal Engine 4", "level": 3, "icon": "skill-icons:unrealengine" },
         { "name": "Blueprints", "level": 3, "icon": "skill-icons:unrealengine" }
       ]
     },
@@ -12,23 +13,33 @@
       "skills": [
         { "name": "C++", "level": 3, "icon": "skill-icons:cpp" },
         { "name": "C#", "level": 2, "icon": "skill-icons:cs" },
-        { "name": "Python", "level": 2, "icon": "skill-icons:python-dark" }
+        { "name": "Java", "level": 2, "icon": "skill-icons:java-dark" }
       ]
     },
     {
-      "title": "Gameplay",
+      "title": "Gameplay & Systems",
       "skills": [
-        { "name": "Gameplay Systems", "level": 3, "icon": "skill-icons:unrealengine" },
-        { "name": "Multiplayer / Networking", "level": 2, "icon": "skill-icons:unrealengine" },
-        { "name": "AI / Behavior Trees", "level": 2, "icon": "skill-icons:unrealengine" }
+        { "name": "Ability Systems", "level": 3, "icon": "skill-icons:unrealengine" },
+        { "name": "Multiplayer / Networking", "level": 3, "icon": "skill-icons:unrealengine" },
+        { "name": "AI", "level": 2, "icon": "skill-icons:unrealengine" },
+        { "name": "Console Ports (PS/Xbox/Switch)", "level": 2, "icon": "mdi:controller" }
       ]
     },
     {
-      "title": "Tools",
+      "title": "Backend & Cloud",
       "skills": [
+        { "name": "AWS (Lambda, DynamoDB, API Gateway)", "level": 2, "icon": "skill-icons:aws-dark" },
+        { "name": "MySQL", "level": 2, "icon": "skill-icons:mysql-dark" },
+        { "name": "PlayFab / EOS", "level": 2, "icon": "mdi:cloud-outline" }
+      ]
+    },
+    {
+      "title": "Leadership & Tools",
+      "skills": [
+        { "name": "Leading Dev Teams", "level": 3, "icon": "mdi:account-group" },
+        { "name": "Agile / Scrum", "level": 3, "icon": "mdi:sync" },
         { "name": "Git", "level": 3, "icon": "skill-icons:git" },
-        { "name": "Perforce", "level": 2, "icon": "mdi:source-branch" },
-        { "name": "Visual Studio", "level": 3, "icon": "skill-icons:visualstudio-dark" }
+        { "name": "Perforce", "level": 2, "icon": "mdi:source-branch" }
       ]
     }
   ]

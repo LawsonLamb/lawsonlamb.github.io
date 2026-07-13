@@ -1,18 +1,36 @@
 [
   {
-    "title": "Traega Entertainment Project",
-    "description": "Gameplay programming on an Unreal Engine title at Traega Entertainment. [Placeholder — replace with the actual game name, your contributions, and a link/trailer.]",
+    "title": "Dungeon Defenders: Awakened",
+    "description": "Gameplay and systems programming at Chromatic Games: built the passive-ability system powering hundreds of abilities, the cross-platform DLC unlocking system, and an in-game store. Sole programmer on the PS4/PS5 port and rewrote the multiplayer session code across all platforms.",
     "images": ["astro-01.webp", "astro-02.jpeg"],
-    "tech": ["Unreal Engine", "C++"],
+    "tech": ["Unreal Engine", "C++", "Blueprints", "Multiplayer"],
     "platforms": ["web"],
     "link": "#",
-    "category": "Professional"
+    "category": "Shipped Game"
   },
   {
-    "title": "Dungeon Defenders (Chromatic Games)",
-    "description": "Gameplay features and systems work on titles at Chromatic Games. [Placeholder — replace with the specific title, your role, and a store/link.]",
+    "title": "Dungeon Defenders: Going Rogue",
+    "description": "Feature and systems work at Chromatic Games, including UI, abilities, characters, and boss AI (including the Lycan King fight) on the studio's roguelike entry in the Dungeon Defenders franchise.",
     "images": ["astro-02.jpeg", "astro-01.webp"],
-    "tech": ["Unreal Engine", "C++"],
+    "tech": ["Unreal Engine 5", "C++", "AI"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "Shipped Game"
+  },
+  {
+    "title": "Dungeon Defenders 2 — Backend",
+    "description": "Spearheaded upgrades to the live Dungeon Defenders 2 backend (C#/AWS/MySQL) and built a serverless Twitch Drops system using AWS Lambda, DynamoDB, and API Gateway.",
+    "images": ["astro-01.webp", "astro-02.jpeg"],
+    "tech": ["C#", "AWS", "MySQL"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "Live Service"
+  },
+  {
+    "title": "Primiri Training Tool",
+    "description": "Lead programmer on a training/simulation tool at RhinoCorps. Built a RuntimeImporter plugin in Unreal 4 (FBX SDK + Assimp) for loading 3D models at runtime and drove AutoCAD-to-3D pipeline improvements that cut VRAM usage by 40%.",
+    "images": ["astro-02.jpeg", "astro-01.webp"],
+    "tech": ["Unreal Engine 4", "C++"],
     "platforms": ["web"],
     "link": "#",
     "category": "Professional"

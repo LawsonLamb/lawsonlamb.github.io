@@ -2,25 +2,57 @@
   {
     "company": "Traega Entertainment",
     "role": "Senior Gameplay Programmer",
-    "period": "Present",
-    "type": "Full time job",
-    "description": "Building and maintaining core gameplay systems in Unreal Engine with C++. [Placeholder — update with specific responsibilities, shipped titles, and start date.]",
-    "skills": ["Unreal Engine", "C++", "Gameplay Systems"]
+    "period": "Oct 2024 - Present",
+    "type": "Full-time",
+    "description": "Building and maintaining core gameplay systems in Unreal Engine 5 with C++.",
+    "skills": ["Unreal Engine 5", "C++", "Gameplay Systems"]
   },
   {
     "company": "Chromatic Games",
-    "role": "Gameplay Programmer",
-    "period": "Previous",
-    "type": "Full time job",
-    "description": "Developed gameplay features and systems in Unreal Engine. [Placeholder — update with dates, projects, and highlights.]",
-    "skills": ["Unreal Engine", "C++", "Gameplay Programming"]
+    "role": "Lead Software Engineer",
+    "period": "Aug 2022 - Oct 2024",
+    "type": "Full-time",
+    "description": "Managed day-to-day work and career growth for 5-10 engineers across dev-ops, gameplay, engine, and backend. Development lead of an unannounced UE5 multiplayer title. Oversaw the Dungeon Defenders: Awakened port to the Stove platform (multiplayer via Epic Online Services / EOS Redpoint) and a physical-media Switch release with Super Rare. Spearheaded upgrades to the Dungeon Defenders 2 backend (C#/AWS/MySQL) and built Twitch Drops on serverless AWS (Lambda, DynamoDB, API Gateway). Led agile ceremonies for multiple teams.",
+    "skills": ["Leadership", "Unreal Engine 5", "C#", "AWS", "Agile"]
+  },
+  {
+    "company": "Chromatic Games",
+    "role": "Senior Gameplay Programmer",
+    "period": "Mar 2020 - Aug 2022",
+    "type": "Full-time",
+    "description": "Built UI, AI, ability, and character features across Dungeon Defenders: Awakened and Dungeon Defenders: Going Rogue. Created the passive-ability system now powering hundreds of abilities, the cross-platform DLC unlocking system (Steam, Xbox, PlayStation, Switch), and an in-game store using PlayFab Economy v2 and Steam Inventory. Sole programmer on the DDA PS4/PS5 port and rewrote multiplayer session code after PlayFab 1.0 was deprecated.",
+    "skills": ["Blueprints", "Unreal Engine", "C++", "Multiplayer", "AI"]
+  },
+  {
+    "company": "RhinoCorps Ltd. Co.",
+    "role": "Game Application Programmer",
+    "period": "Oct 2017 - Feb 2020",
+    "type": "Full-time",
+    "description": "Lead programmer on the Primiri training tool. Spearheaded AutoCAD-to-3D pipeline improvements that cut VRAM usage by 40%, and built a RuntimeImporter plugin in Unreal 4 (FBX SDK + Assimp) for loading 3D models at runtime. Prototyped a networked first-person shooter connected to a real-world combat simulation. Helped lead agile ceremonies for the team.",
+    "skills": ["Unreal Engine", "C++", "Analytical Skills"]
+  },
+  {
+    "company": "Reavis Code",
+    "role": "Consulting Software Engineer",
+    "period": "May 2016 - Oct 2017",
+    "type": "Contract",
+    "description": "Consulting projects including a Gradle pipeline to convert .jar to .exe and produce an installer, GitHub/Jira and Confluence integrations, and a Jenkins CI build server triggered by private GitHub pushes.",
+    "skills": ["Java", "Gradle", "CI/CD"]
+  },
+  {
+    "company": "Davison Professionals, Inc.",
+    "role": "Consulting Software Engineer",
+    "period": "May 2016 - Oct 2017",
+    "type": "Contract",
+    "description": "Upgraded the StaxPro codebase from Visual FoxPro to Java, including PDF report generation from the database, an in-house PDF viewing/mapping tool, and JavaFX FXML views and controllers.",
+    "skills": ["Java", "JavaFX"]
   },
   {
     "company": "Kennesaw State University",
-    "role": "Student",
+    "role": "Bachelor, Computer Game Design & Development",
     "period": "2013 - 2016",
     "type": "Student",
-    "description": "Member of Phi Theta Kappa Honor Society and the National Society of Leadership and Success. [Placeholder — update with degree/field of study.]",
-    "skills": ["Problem Solving", "Leadership"]
+    "description": "Activities and societies: Phi Theta Kappa Honor Society and the National Society of Leadership and Success.",
+    "skills": ["C++", "Game Design", "Problem Solving"]
   }
 ]
