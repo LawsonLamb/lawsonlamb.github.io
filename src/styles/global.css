@@ -111,6 +111,24 @@
     --color-textrain: #e2a787;
   }
 
+  /* Matrix - Dark */
+  [data-theme="matrix-dark"] {
+    --color-background: #030A03;
+    --color-accent: #6BFF3D;
+    --color-maintext: #E4FFD6;
+    --color-subtext: #8FCB6E;
+    --color-textrain: #1F9E2E;
+  }
+
+  /* Matrix - Light */
+  [data-theme="matrix-light"] {
+    --color-background: #F1FBE9;
+    --color-accent: #1E9E12;
+    --color-maintext: #0C2A08;
+    --color-subtext: #3C6A2E;
+    --color-textrain: #7fbc6e;
+  }
+
 
   /* Core Element Styles */
   *::selection {
