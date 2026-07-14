@@ -13,7 +13,7 @@
       "Created an in-game store using PlayFab Economy v2 and Steam Inventory.",
       "Oversaw the port to the Stove platform (multiplayer via Epic Online Services / EOS Redpoint) and a physical-media Switch release with Super Rare."
     ],
-    "images": ["astro-01.webp", "astro-02.jpeg"],
+    "images": ["dda-header.jpg", "dda-1.jpg", "dda-2.jpg"],
     "tech": ["Unreal Engine", "C++", "Blueprints", "Multiplayer"],
     "platforms": ["web"],
     "link": "https://store.steampowered.com/app/1101190/Dungeon_Defenders_Awakened/",
@@ -30,7 +30,7 @@
       "Extended the shared passive-ability system to support Going Rogue's roguelike progression.",
       "Worked on the boss AI for the Lycan King boss fight."
     ],
-    "images": ["astro-02.jpeg", "astro-01.webp"],
+    "images": ["rogue-header.jpg", "rogue-1.jpg", "rogue-2.jpg"],
     "tech": ["Unreal Engine 5", "C++", "AI"],
     "platforms": ["web"],
     "link": "https://store.steampowered.com/app/1815530/Dungeon_Defenders_Going_Rogue/",
@@ -46,7 +46,7 @@
       "Spearheaded upgrades to the live Dungeon Defenders 2 backend (C#/AWS/MySQL).",
       "Built a serverless Twitch Drops system using AWS Lambda, DynamoDB, and API Gateway."
     ],
-    "images": ["astro-01.webp", "astro-02.jpeg"],
+    "images": ["dd2-header.jpg", "dd2-1.jpg", "dd2-2.jpg"],
     "tech": ["C#", "AWS", "MySQL"],
     "platforms": ["web"],
     "link": "https://store.steampowered.com/app/236110/Dungeon_Defenders_II/",
