@@ -64,10 +64,10 @@
       "Drove AutoCAD-to-3D pipeline improvements that cut VRAM usage by 40%.",
       "Prototyped a networked first-person shooter that could connect to a real-world combat simulation."
     ],
-    "images": ["astro-02.jpeg", "astro-01.webp"],
+    "images": ["primiri-1.jpg", "primiri-2.png", "primiri-3.png"],
     "tech": ["Unreal Engine 4", "C++"],
     "platforms": ["web"],
-    "link": "#",
+    "link": "https://www.rhinocorps.com/primiri/",
     "category": "Professional"
   }
 ]
