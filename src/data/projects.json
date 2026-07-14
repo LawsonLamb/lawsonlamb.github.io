@@ -1,7 +1,18 @@
 [
   {
+    "slug": "dungeon-defenders-awakened",
     "title": "Dungeon Defenders: Awakened",
+    "company": "Chromatic Games",
+    "year": "2020 - 2024",
     "description": "Gameplay and systems programming at Chromatic Games: built the passive-ability system powering hundreds of abilities, the cross-platform DLC unlocking system, and an in-game store. Sole programmer on the PS4/PS5 port and rewrote the multiplayer session code across all platforms.",
+    "highlights": [
+      "Created the underlying passive-ability system that now supports hundreds of individual abilities.",
+      "Built the cross-platform DLC unlocking system across Steam, Xbox, PlayStation, and Switch.",
+      "Sole programmer on the PS4/PS5 port of the game.",
+      "Rewrote the multiplayer session code for all platforms after PlayFab 1.0 was deprecated.",
+      "Created an in-game store using PlayFab Economy v2 and Steam Inventory.",
+      "Oversaw the port to the Stove platform (multiplayer via Epic Online Services / EOS Redpoint) and a physical-media Switch release with Super Rare."
+    ],
     "images": ["astro-01.webp", "astro-02.jpeg"],
     "tech": ["Unreal Engine", "C++", "Blueprints", "Multiplayer"],
     "platforms": ["web"],
@@ -9,8 +20,16 @@
     "category": "Shipped Game"
   },
   {
+    "slug": "dungeon-defenders-going-rogue",
     "title": "Dungeon Defenders: Going Rogue",
-    "description": "Feature and systems work at Chromatic Games, including UI, abilities, characters, and boss AI (including the Lycan King fight) on the studio's roguelike entry in the Dungeon Defenders franchise.",
+    "company": "Chromatic Games",
+    "year": "2020 - 2024",
+    "description": "Feature and systems work at Chromatic Games on the studio's roguelike entry in the Dungeon Defenders franchise, including UI, abilities, characters, and boss AI.",
+    "highlights": [
+      "Added UI, AI, ability, and character features throughout the game.",
+      "Extended the shared passive-ability system to support Going Rogue's roguelike progression.",
+      "Worked on the boss AI for the Lycan King boss fight."
+    ],
     "images": ["astro-02.jpeg", "astro-01.webp"],
     "tech": ["Unreal Engine 5", "C++", "AI"],
     "platforms": ["web"],
@@ -18,8 +37,15 @@
     "category": "Shipped Game"
   },
   {
+    "slug": "dungeon-defenders-2-backend",
     "title": "Dungeon Defenders 2 — Backend",
-    "description": "Spearheaded upgrades to the live Dungeon Defenders 2 backend (C#/AWS/MySQL) and built a serverless Twitch Drops system using AWS Lambda, DynamoDB, and API Gateway.",
+    "company": "Chromatic Games",
+    "year": "2022 - 2024",
+    "description": "Backend and live-service work on Dungeon Defenders 2, spearheading upgrades to the game's backend and building a serverless Twitch Drops integration.",
+    "highlights": [
+      "Spearheaded upgrades to the live Dungeon Defenders 2 backend (C#/AWS/MySQL).",
+      "Built a serverless Twitch Drops system using AWS Lambda, DynamoDB, and API Gateway."
+    ],
     "images": ["astro-01.webp", "astro-02.jpeg"],
     "tech": ["C#", "AWS", "MySQL"],
     "platforms": ["web"],
@@ -27,8 +53,17 @@
     "category": "Live Service"
   },
   {
+    "slug": "primiri-training-tool",
     "title": "Primiri Training Tool",
-    "description": "Lead programmer on a training/simulation tool at RhinoCorps. Built a RuntimeImporter plugin in Unreal 4 (FBX SDK + Assimp) for loading 3D models at runtime and drove AutoCAD-to-3D pipeline improvements that cut VRAM usage by 40%.",
+    "company": "RhinoCorps Ltd. Co.",
+    "year": "2017 - 2020",
+    "description": "Lead programmer on a training/simulation tool at RhinoCorps, creating the majority of the code and user interface along with core Unreal Engine tooling.",
+    "highlights": [
+      "Lead programmer on the Primiri training tool — created a majority of the code and user interface.",
+      "Built a RuntimeImporter plugin in Unreal 4 (FBX SDK + Assimp) for loading 3D models at runtime.",
+      "Drove AutoCAD-to-3D pipeline improvements that cut VRAM usage by 40%.",
+      "Prototyped a networked first-person shooter that could connect to a real-world combat simulation."
+    ],
     "images": ["astro-02.jpeg", "astro-01.webp"],
     "tech": ["Unreal Engine 4", "C++"],
     "platforms": ["web"],

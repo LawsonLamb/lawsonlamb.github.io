@@ -292,6 +292,9 @@ const navItems: NavItem[] = [
         targetElement.scrollIntoView({
           behavior: "smooth",
         });
+      } else {
+        // Section isn't on this page (e.g. a project detail page) — go home to it
+        window.location.href = `/#${targetId}`;
       }
     });
   });

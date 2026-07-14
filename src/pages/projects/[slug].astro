@@ -1,0 +1,121 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Nav from "../../components/nav.astro";
+import Contact from "../../components/contact.astro";
+import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import { resolveAssetImage } from "../../utils/images";
+import projectsData from "../../data/projects.json";
+
+export function getStaticPaths() {
+  return projectsData.map((project) => ({
+    params: { slug: project.slug },
+    props: { project },
+  }));
+}
+
+const { project } = Astro.props;
+
+const optimizedImages = (
+  await Promise.all(
+    project.images.map((imgName: string) => resolveAssetImage(imgName)),
+  )
+).filter(Boolean);
+
+const hasExternalLink = project.link && project.link !== "#";
+---
+
+<Layout title={`${project.title} — Lawson Lamb`}>
+  <Nav />
+
+  <article class="section-container max-w-4xl mx-auto">
+    <a
+      href="/#projects"
+      class="inline-flex items-center gap-2 text-subtext hover:text-accent transition-colors text-sm mb-10"
+    >
+      <Icon name="mdi:arrow-left" class="w-5 h-5" />
+      Back to projects
+    </a>
+
+    <header class="mb-10">
+      <span class="text-accent text-xs uppercase tracking-widest font-bold">
+        {project.category}
+      </span>
+      <h1 class="text-4xl md:text-5xl font-heading font-bold text-maintext mt-2">
+        {project.title}
+      </h1>
+      <div class="flex flex-wrap items-center gap-x-4 gap-y-1 mt-3 text-subtext text-sm">
+        {project.company && <span>{project.company}</span>}
+        {project.company && project.year && <span class="text-accent/50">•</span>}
+        {project.year && <span>{project.year}</span>}
+      </div>
+    </header>
+
+    {
+      optimizedImages.length > 0 && (
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
+          {optimizedImages.map((img, i) => (
+            <Image
+              src={img}
+              alt={`${project.title} screenshot ${i + 1}`}
+              class={`w-full rounded-2xl border border-accent/10 object-cover aspect-video ${optimizedImages.length === 1 ? "sm:col-span-2" : ""}`}
+            />
+          ))}
+        </div>
+      )
+    }
+
+    <p class="text-maintext/90 font-body text-lg leading-relaxed mb-10">
+      {project.description}
+    </p>
+
+    {
+      project.highlights && project.highlights.length > 0 && (
+        <section class="mb-12">
+          <h2 class="text-xl font-heading font-bold text-maintext mb-5 flex items-center gap-3">
+            <span class="text-accent">/</span> Highlights
+          </h2>
+          <ul class="space-y-3">
+            {project.highlights.map((point: string) => (
+              <li class="flex gap-3 text-subtext font-body">
+                <Icon name="mdi:chevron-right" class="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                <span>{point}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <section class="mb-12">
+      <h2 class="text-xl font-heading font-bold text-maintext mb-5 flex items-center gap-3">
+        <span class="text-accent">/</span> Tech
+      </h2>
+      <div class="flex flex-wrap gap-2">
+        {
+          project.tech.map((t: string) => (
+            <span class="rounded-md text-xs px-4 py-1.5 bg-accent/5 border border-accent/20 text-accent/90">
+              {t}
+            </span>
+          ))
+        }
+      </div>
+    </section>
+
+    {
+      hasExternalLink && (
+        <a
+          href={project.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="inline-flex items-center gap-2 rounded-full px-6 py-3 bg-accent/10 border border-accent/40 text-accent hover:bg-accent hover:text-background transition-colors font-heading font-bold"
+        >
+          Visit project
+          <Icon name="mdi:open-in-new" class="w-5 h-5" />
+        </a>
+      )
+    }
+  </article>
+
+  <Contact />
+</Layout>
