@@ -16,7 +16,7 @@
     "images": ["astro-01.webp", "astro-02.jpeg"],
     "tech": ["Unreal Engine", "C++", "Blueprints", "Multiplayer"],
     "platforms": ["web"],
-    "link": "#",
+    "link": "https://store.steampowered.com/app/1101190/Dungeon_Defenders_Awakened/",
     "category": "Shipped Game"
   },
   {
@@ -33,7 +33,7 @@
     "images": ["astro-02.jpeg", "astro-01.webp"],
     "tech": ["Unreal Engine 5", "C++", "AI"],
     "platforms": ["web"],
-    "link": "#",
+    "link": "https://store.steampowered.com/app/1815530/Dungeon_Defenders_Going_Rogue/",
     "category": "Shipped Game"
   },
   {
@@ -49,7 +49,7 @@
     "images": ["astro-01.webp", "astro-02.jpeg"],
     "tech": ["C#", "AWS", "MySQL"],
     "platforms": ["web"],
-    "link": "#",
+    "link": "https://store.steampowered.com/app/236110/Dungeon_Defenders_II/",
     "category": "Live Service"
   },
   {
